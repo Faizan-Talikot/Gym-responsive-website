@@ -1,0 +1,159 @@
+
+/* navigation section  */
+
+#navbar{
+    flex-direction: column;
+}
+
+.login{
+    
+    display: none;
+}
+
+#navbar ul li{
+    padding: 4px 24px;
+}
+
+#navbar ul li a{
+    padding: 2px 2px;
+    flex-wrap: wrap;
+    font-size: 0.79rem;
+}
+
+/* home section  */
+
+#home{
+    height: 61px;
+}
+
+#home::before{
+    height: 515px;
+}
+
+#home p{
+    font-size: 21px;
+}
+
+
+
+
+
+/* about section  */
+
+#about .aboutkiimg img{
+    height: 238px;
+    margin: 11px 10px;
+}
+
+#about .box{
+    float: none;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    padding: 50px 15px;
+}
+
+#about .aboutkiimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .btnforabout{
+     text-align: center;
+}
+
+#about .aboutbtn{
+    margin: 11px 10px;
+    float: none;
+}
+
+
+/* about trainers section  */
+
+#about .trainers{
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+}
+
+#about .trainers h1{
+    font-size: 40px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#about .trainerimg{
+    flex-direction: column;
+}
+
+#about .trainerimg img{
+    height: auto;
+    width: 250px;
+    margin: 30px auto;
+}
+
+
+/* plans section  */
+#plans h1{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 18px 0px;
+}
+
+#plans .btnofplans{
+    float: none;
+    padding: 13px 20px;
+    margin: 10px 10px;
+}
+
+#plans .planskabutton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#plans .planskapara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plans p{
+    margin: 32px 10px;
+}
+
+
+
+/* cards */
+
+.cardsofplans{
+    flex-direction: column;
+    margin: 90px 10px;
+}
+
+
+
+/* contact  */
+
+#contact{
+    margin: 26px auto;
+}
+
+.form-group{
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.contact-box{
+    margin: 18px 18px;
+}
+
+#contact .contactsubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
